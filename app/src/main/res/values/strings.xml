@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CabService</string>
+
+    <string-array name="vehicle_selection">
+        <item>Anything</item>
+        <item>Car</item>
+        <item>Bike</item>
+    </string-array>
+</resources>
