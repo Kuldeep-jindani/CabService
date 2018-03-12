@@ -15,82 +15,85 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="@color/DriverProfilegrey"
-            >
+            android:background="@color/DriverProfilegrey">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/user"
-                />
+                android:src="@drawable/user" />
 
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:text="Driver's Name"
             android:textColor="@color/grey"
-            />
+            android:textSize="25dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:text="Vehicle's Type"
             android:textColor="@color/grey"
-            />
+            android:textSize="25dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:text="Vehicle's number"
             android:textColor="@color/grey"
-            />
-        <RelativeLayout
-            android:orientation="horizontal"
+            android:textSize="25dp" />
+
+        <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
-            android:layout_height="match_parent">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Contact Number"
-            android:textColor="@color/grey"
-            />
-            <LinearLayout
-                android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="3"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact Number"
                 android:gravity="center"
+                android:textAlignment="viewStart"
+                android:textColor="@color/grey"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
                 android:layout_marginRight="10dp"
-                android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/call"
-                />
+                android:gravity="center">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/message"
+                    android:src="@drawable/call" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    /></LinearLayout>
-        </RelativeLayout>
+                    android:src="@drawable/message" />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

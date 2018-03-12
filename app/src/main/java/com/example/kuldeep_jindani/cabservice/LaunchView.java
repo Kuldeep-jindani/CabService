@@ -40,9 +40,10 @@ public class LaunchView extends AppCompatActivity {
 
 
         final RippleBackground rippleBackground=(RippleBackground)findViewById(R.id.content);
+        TextView centerImage=findViewById(R.id.centerImage);
 //        TextView imageView= (TextView) findViewById(R.id.landedview_ride);
         rippleBackground.startRippleAnimation();
-        rippleBackground.setOnClickListener(new View.OnClickListener() {
+        centerImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

@@ -220,6 +220,7 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
+                android:gravity="center"
                 android:background="@drawable/rounded_corner_light_green"
                 android:orientation="horizontal"
                 android:padding="10dp">
@@ -227,7 +228,7 @@
 
                 <ImageView
                     android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_height="25dp"
                     android:src="@mipmap/ic_check" />
 
                 <TextView
@@ -248,7 +249,7 @@
                 android:id="@+id/driverLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_corner_white"
+                android:background="@color/white"
                 android:orientation="horizontal"
                 android:layout_marginBottom="-15dp"
                 android:elevation="15dp"

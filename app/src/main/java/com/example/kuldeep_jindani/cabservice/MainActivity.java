@@ -113,8 +113,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 driverLayout.startAnimation(bottomUp);
                 driverLayout.setVisibility(View.VISIBLE);
 
-
-
+// ride found slide down animation
+/*                rideFound.startAnimation(bottomUp);
+                rideFound.setVisibility(View.GONE);*/
 
             }
         }, 2000);
