@@ -141,8 +141,8 @@
     </LinearLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/grey"/>
+        android:layout_height="4dp"
+        android:background="@android:color/holo_green_dark"/>
     <LinearLayout
         android:id="@+id/filledlocationResult"
         android:layout_width="match_parent"
